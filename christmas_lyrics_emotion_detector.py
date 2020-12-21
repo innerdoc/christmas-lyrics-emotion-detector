@@ -168,7 +168,7 @@ for index, line in df_songlabels.iterrows():
             if prim_label == 'disgust':
                 x0, y0 = -4.4, -4.4
             if prim_label == 'anger':
-                x0, y0 = 4.4, 4.4
+                x0, y0 = -6.2, 0
             if prim_label == 'anticipation':
                 x0, y0 = -4.4, 4.4
             if prim_label == 'joy':
