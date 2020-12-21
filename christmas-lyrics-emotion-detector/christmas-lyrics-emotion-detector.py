@@ -22,7 +22,10 @@ def create_fig():
     fig3 = go.Figure()
 
     # Add images
-    img = Image.open('plutchik_model_of_emotions_with_faces.png')
+    try:
+        img = Image.open('christmas-lyrics-emotion-detector/plutchik_model_of_emotions_with_faces.png')
+    except:
+        img = Image.open('plutchik_model_of_emotions_with_faces.png')
     fig3.add_layout_image(
             dict(
                 source=img,
