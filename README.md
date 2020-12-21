@@ -23,6 +23,5 @@ Below an example of the App.
 ## Install and run
 ```
 pip install -r requirements.txt
-cd christmas-lyrics-emotion-detector
 streamlit run christmas_lyrics_emotion_detector.py
 ```
