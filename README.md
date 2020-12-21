@@ -3,6 +3,9 @@
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://www.innerdoc.com/christmas-lyrics-emotions-demo/) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40innerdoc)](https://twitter.com/innerdoc_nlp)
 
 
+![alt text](christmas-lyrics-emotion-detector-post.png)
+
+
 ## About
 This *Christmas Lyrics Emotion Detector* is created by [Rob van Zoest](https://www.linkedin.com/in/robvanzoest/) and started with the idea for a fun pre-christmas project: 
 - The **code** is available on [github.com/innerdoc](https://github.com/innerdoc/christmas-lyrics-emotion-detector)
