@@ -96,14 +96,6 @@ sentence_id = st.sidebar.slider('Slide to Lyric-sentence', 0, len(df_songlabels)
 
 # sidebar
 st.sidebar.markdown(f"---")
-st.sidebar.video(youtube_url)
-
-st.sidebar.markdown(f"Artist : **{artist}**")
-st.sidebar.markdown(f"Title : **{title}**")
-st.sidebar.markdown(f"Year  : **{released}**")
-st.sidebar.markdown(f"Album : **{album}**")
-
-st.sidebar.markdown(f"---")
 show_about = st.sidebar.checkbox('About this App')
 if show_about:
     st.subheader('About')
@@ -118,6 +110,13 @@ and this [Colab Notebook](https://colab.research.google.com/drive/1gcJq-6YXGca7i
 ---
 \n\n\n\n
 ''')
+st.sidebar.markdown(f"---")
+st.sidebar.video(youtube_url)
+
+st.sidebar.markdown(f"Artist : **{artist}**")
+st.sidebar.markdown(f"Title : **{title}**")
+st.sidebar.markdown(f"Year  : **{released}**")
+st.sidebar.markdown(f"Album : **{album}**")
 
 
 
