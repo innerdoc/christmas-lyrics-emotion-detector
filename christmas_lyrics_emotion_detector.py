@@ -95,7 +95,6 @@ sentence_id = st.sidebar.slider('Slide to Lyric-sentence', 0, len(df_songlabels)
 
 
 # sidebar
-st.sidebar.markdown(f"---")
 show_about = st.sidebar.checkbox('About this App')
 if show_about:
     st.subheader('About')
