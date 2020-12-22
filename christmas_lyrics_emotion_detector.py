@@ -72,7 +72,7 @@ def emphasize_column(color):
     return f'font-weight:bold;'
 
 
-
+placeholder_info = st.empty()
 st.sidebar.title('Christmas Lyrics Emotion Detector')
 st.sidebar.markdown(f"---")
 
@@ -209,7 +209,10 @@ placeholder_lyrics.markdown('\n\n'.join(lyrics_text), unsafe_allow_html=True)
 # social
 st.markdown('[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40innerdoc)](https://twitter.com/innerdoc_nlp)')
 
-
+if song_id == 1 and sentence_id == 14:
+    placeholder_info.info('Use the sidebar to select a song and to slide to a sentence!')
+else:
+    placeholder_info.empty()
 
 
 
