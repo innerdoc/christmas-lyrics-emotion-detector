@@ -117,8 +117,7 @@ st.sidebar.markdown(f"Title : **{title}**")
 st.sidebar.markdown(f"Year  : **{released}**")
 st.sidebar.markdown(f"Album : **{album}**")
 
-https://colab.research.google.com/drive/1gcJq-6YXGca7i_8XUfq9z08MU_EWlkSd?usp=sharing
-https://colab.research.google.com/drive/1gcJq-6YXGca7i_8XUfq9z08MU_EWlkSd
+
 # lyric-sentence
 placeholder_sent_meta = st.empty()
 placeholder_sent = st.empty()
